@@ -1,0 +1,9 @@
+pandas
+matplotlib
+scikit-learn
+numpy
+scipy
+bs4
+html5lib
+requests
+selenium
