@@ -4,7 +4,9 @@ This repo contains the python project for scraping and analysing a travel websit
 
 ## Usage
 A folder called driver contain binary file chromedriver which is using by selenium. On linux and windows it is differ. I'm using selenium because a search page of site is building by JavaScript and it can not be reached via BeautifulSoup. There are two ways for scraping:
+
 1. Sheduled to run a script scraper.py (using cron)
+
 2. Run main_loop.py
 
 The second way have some drawback for me. I used my home computer and sometimes I had electrical failures. If computer rebooted it have to run main_loop.py every times again. But if you use server it will be better to use the second way.
